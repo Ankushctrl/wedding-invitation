@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gRecep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE89E"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#805A17"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="50" cy="50" r="46" fill="#1C1438" stroke="url(#gRecep)" stroke-width="2"/>
+  <circle cx="50" cy="50" r="41" fill="none" stroke="url(#gRecep)" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+  <!-- Grand Royal Palace Chandelier -->
+  <!-- Top Ceiling Chain -->
+  <line x1="50" y1="18" x2="50" y2="28" stroke="url(#gRecep)" stroke-width="2"/>
+  <circle cx="50" cy="22" r="3" fill="url(#gRecep)"/>
+
+  <!-- Tier 1 Crown -->
+  <path d="M42,28 L58,28 L54,34 L46,34 Z" fill="url(#gRecep)"/>
+
+  <!-- Tier 2 Wide Chandelier Frame -->
+  <path d="M24,42 Q50,50 76,42" stroke="url(#gRecep)" stroke-width="2.5" fill="none"/>
+  <line x1="42" y1="34" x2="26" y2="42" stroke="url(#gRecep)" stroke-width="1.2"/>
+  <line x1="58" y1="34" x2="74" y2="42" stroke="url(#gRecep)" stroke-width="1.2"/>
+  <line x1="50" y1="34" x2="50" y2="46" stroke="url(#gRecep)" stroke-width="1.5"/>
+
+  <!-- Candles / Crystal Lights on Tier 2 -->
+  <!-- Candle 1 -->
+  <line x1="28" y1="42" x2="28" y2="36" stroke="url(#gRecep)" stroke-width="1.8"/>
+  <circle cx="28" cy="33" r="2" fill="#FFEAA7"/>
+  <!-- Candle 2 -->
+  <line x1="39" y1="45" x2="39" y2="39" stroke="url(#gRecep)" stroke-width="1.8"/>
+  <circle cx="39" cy="36" r="2" fill="#FFEAA7"/>
+  <!-- Candle 3 (Center) -->
+  <line x1="50" y1="46" x2="50" y2="39" stroke="url(#gRecep)" stroke-width="1.8"/>
+  <circle cx="50" cy="36" r="2.5" fill="#FFEAA7"/>
+  <!-- Candle 4 -->
+  <line x1="61" y1="45" x2="61" y2="39" stroke="url(#gRecep)" stroke-width="1.8"/>
+  <circle cx="61" cy="36" r="2.5" fill="#FFEAA7"/>
+  <!-- Candle 5 -->
+  <line x1="72" y1="42" x2="72" y2="36" stroke="url(#gRecep)" stroke-width="1.8"/>
+  <circle cx="72" cy="33" r="2" fill="#FFEAA7"/>
+
+  <!-- Hanging Crystals & Pearls -->
+  <line x1="28" y1="42" x2="28" y2="52" stroke="url(#gRecep)" stroke-width="1" stroke-dasharray="2,2"/>
+  <circle cx="28" cy="54" r="2" fill="url(#gRecep)"/>
+
+  <line x1="38" y1="46" x2="38" y2="60" stroke="url(#gRecep)" stroke-width="1" stroke-dasharray="2,2"/>
+  <circle cx="38" cy="62" r="2.5" fill="url(#gRecep)"/>
+
+  <line x1="50" y1="46" x2="50" y2="68" stroke="url(#gRecep)" stroke-width="1.5" stroke-dasharray="2,2"/>
+  <polygon points="50,68 47,76 53,76" fill="url(#gRecep)"/>
+
+  <line x1="62" y1="46" x2="62" y2="60" stroke="url(#gRecep)" stroke-width="1" stroke-dasharray="2,2"/>
+  <circle cx="62" cy="62" r="2.5" fill="url(#gRecep)"/>
+
+  <line x1="72" y1="42" x2="72" y2="52" stroke="url(#gRecep)" stroke-width="1" stroke-dasharray="2,2"/>
+  <circle cx="72" cy="54" r="2" fill="url(#gRecep)"/>
+
+  <!-- Toasting Royal Goblets / Royal Crest below -->
+  <path d="M38,78 L44,78 L43,84 L39,84 Z M41,84 L41,88 M38,88 L44,88" stroke="url(#gRecep)" stroke-width="1" fill="url(#gRecep)"/>
+  <path d="M62,78 L56,78 L57,84 L61,84 Z M59,84 L59,88 M56,88 L62,88" stroke="url(#gRecep)" stroke-width="1" fill="url(#gRecep)"/>
+</svg>

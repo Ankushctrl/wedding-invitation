@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5E4A8"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#997018"/>
+    </linearGradient>
+    <linearGradient id="pBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E5E7A"/>
+      <stop offset="60%" stop-color="#073B4C"/>
+      <stop offset="100%" stop-color="#052733"/>
+    </linearGradient>
+    <linearGradient id="pTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06D6A0"/>
+      <stop offset="60%" stop-color="#118AB2"/>
+      <stop offset="100%" stop-color="#073B4C"/>
+    </linearGradient>
+    <radialGradient id="featherEye" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#073B4C"/>
+      <stop offset="40%" stop-color="#06D6A0"/>
+      <stop offset="70%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#780016"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Fan-tail Feather Plumes -->
+  <!-- Feather 1 -->
+  <path d="M120,150 Q70,90 40,40 Q65,40 120,130" fill="url(#pBlue)" stroke="url(#pGold)" stroke-width="1.5" opacity="0.95"/>
+  <circle cx="48" cy="48" r="10" fill="url(#featherEye)" stroke="url(#pGold)" stroke-width="1.5"/>
+
+  <!-- Feather 2 -->
+  <path d="M120,150 Q90,70 80,25 Q105,30 125,130" fill="url(#pTeal)" stroke="url(#pGold)" stroke-width="1.5"/>
+  <circle cx="85" cy="30" r="10" fill="url(#featherEye)" stroke="url(#pGold)" stroke-width="1.5"/>
+
+  <!-- Feather 3 (Center High) -->
+  <path d="M120,150 Q120,60 125,15 Q140,25 130,130" fill="url(#pBlue)" stroke="url(#pGold)" stroke-width="1.5"/>
+  <circle cx="125" cy="20" r="11" fill="url(#featherEye)" stroke="url(#pGold)" stroke-width="1.5"/>
+
+  <!-- Feather 4 -->
+  <path d="M120,150 Q150,70 170,30 Q180,45 135,135" fill="url(#pTeal)" stroke="url(#pGold)" stroke-width="1.5"/>
+  <circle cx="165" cy="35" r="10" fill="url(#featherEye)" stroke="url(#pGold)" stroke-width="1.5"/>
+
+  <!-- Feather 5 -->
+  <path d="M120,150 Q180,90 205,50 Q205,70 140,140" fill="url(#pBlue)" stroke="url(#pGold)" stroke-width="1.5"/>
+  <circle cx="198" cy="55" r="10" fill="url(#featherEye)" stroke="url(#pGold)" stroke-width="1.5"/>
+
+  <!-- Lower Fan Tail Overlay -->
+  <path d="M120,150 C80,130 60,160 50,190 C75,190 100,170 120,150 Z" fill="url(#pBlue)" stroke="url(#pGold)" stroke-width="1"/>
+  <circle cx="65" cy="175" r="8" fill="url(#featherEye)" stroke="url(#pGold)" stroke-width="1"/>
+
+  <!-- Peacock Body (Graceful S-Curve Profile) -->
+  <path d="M110,195 
+           C100,165 110,135 125,120 
+           C135,110 145,95 142,80 
+           C140,70 132,65 128,68 
+           C122,70 120,62 125,55 
+           C132,46 148,48 152,60 
+           C156,72 152,88 145,102 
+           C138,116 135,135 142,165 
+           C145,180 140,195 130,205 
+           Z" 
+        fill="url(#pBlue)" stroke="url(#pGold)" stroke-width="2"/>
+
+  <!-- Peacock Breast / Wing Texture (Gold & Teal) -->
+  <path d="M122,125 C132,135 135,155 125,175 C115,160 115,140 122,125 Z" fill="url(#pTeal)" stroke="url(#pGold)" stroke-width="1"/>
+  <path d="M126,132 Q132,142 124,155" stroke="url(#pGold)" stroke-width="1.5" fill="none"/>
+  <path d="M128,142 Q134,152 126,165" stroke="url(#pGold)" stroke-width="1.5" fill="none"/>
+
+  <!-- Beak & Eye -->
+  <polygon points="124,58 112,62 122,64" fill="url(#pGold)"/>
+  <circle cx="132" cy="58" r="2.5" fill="#FFFFFF"/>
+  <circle cx="132" cy="58" r="1.2" fill="#000000"/>
+
+  <!-- Royal Crest / Kalangi on Head -->
+  <line x1="134" y1="50" x2="132" y2="38" stroke="url(#pGold)" stroke-width="1.5"/>
+  <circle cx="132" cy="36" r="2.5" fill="url(#pGold)"/>
+  <line x1="137" y1="51" x2="140" y2="39" stroke="url(#pGold)" stroke-width="1.5"/>
+  <circle cx="140" cy="37" r="2.5" fill="url(#pGold)"/>
+  <line x1="140" y1="53" x2="146" y2="42" stroke="url(#pGold)" stroke-width="1.5"/>
+  <circle cx="146" cy="40" r="2.5" fill="url(#pGold)"/>
+
+  <!-- Lotus Perch Base -->
+  <path d="M90,210 C105,198 120,205 135,205 C150,205 165,198 180,210 C160,222 110,222 90,210 Z" fill="url(#pGold)" opacity="0.9"/>
+  <circle cx="135" cy="212" r="3" fill="#780016"/>
+</svg>

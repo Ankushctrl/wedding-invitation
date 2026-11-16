@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Logs and test artifacts
+*.log
+npm-debug.log*
+test-results/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEAA7"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#916B19"/>
+    </linearGradient>
+    <linearGradient id="mTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E5E7A"/>
+      <stop offset="100%" stop-color="#073B4C"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(200, 200)">
+    <!-- Concentric Rings -->
+    <circle cx="0" cy="0" r="190" fill="none" stroke="url(#mGold)" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <circle cx="0" cy="0" r="180" fill="none" stroke="url(#mGold)" stroke-width="1"/>
+    <circle cx="0" cy="0" r="150" fill="none" stroke="url(#mGold)" stroke-width="2"/>
+    <circle cx="0" cy="0" r="115" fill="none" stroke="url(#mGold)" stroke-width="1" stroke-dasharray="2,3"/>
+    <circle cx="0" cy="0" r="85" fill="none" stroke="url(#mGold)" stroke-width="2"/>
+    <circle cx="0" cy="0" r="50" fill="none" stroke="url(#mGold)" stroke-width="1.5"/>
+
+    <!-- 16 Outer Flame Lotus Petals -->
+    <g id="petals-16">
+      <!-- 16 rotated elements -->
+      <!-- 0 deg -->
+      <g transform="rotate(0)">
+        <path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/>
+        <circle cx="0" cy="-172" r="3" fill="#800020"/>
+      </g>
+      <g transform="rotate(22.5)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+      <g transform="rotate(45)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+      <g transform="rotate(67.5)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+      <g transform="rotate(90)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+      <g transform="rotate(112.5)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+      <g transform="rotate(135)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+      <g transform="rotate(157.5)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+      <g transform="rotate(180)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+      <g transform="rotate(202.5)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+      <g transform="rotate(225)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+      <g transform="rotate(247.5)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+      <g transform="rotate(270)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+      <g transform="rotate(292.5)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+      <g transform="rotate(315)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+      <g transform="rotate(337.5)"><path d="M-18,-150 C-12,-180 0,-190 0,-190 C0,-190 12,-180 18,-150 C8,-155 -8,-155 -18,-150 Z" fill="url(#mGold)" opacity="0.8"/><circle cx="0" cy="-172" r="3" fill="#800020"/></g>
+    </g>
+
+    <!-- 16 Mid Tier Peacock Teardrops -->
+    <g id="mid-tier">
+      <g transform="rotate(0)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(22.5)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(45)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(67.5)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(90)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(112.5)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(135)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(157.5)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(180)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(202.5)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(225)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(247.5)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(270)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(292.5)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(315)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+      <g transform="rotate(337.5)"><path d="M-12,-85 C-12,-115 0,-135 0,-135 C0,-135 12,-115 12,-85 Z" fill="url(#mTeal)" stroke="url(#mGold)" stroke-width="1.2"/><circle cx="0" cy="-105" r="3.5" fill="url(#mGold)"/></g>
+    </g>
+
+    <!-- Inner Central 8-Petal Rose Star -->
+    <g id="inner-star">
+      <g transform="rotate(0)"><path d="M0,-50 C-10,-35 -8,-15 0,0 C8,-15 10,-35 0,-50 Z" fill="url(#mGold)" stroke="#800020" stroke-width="1"/></g>
+      <g transform="rotate(45)"><path d="M0,-50 C-10,-35 -8,-15 0,0 C8,-15 10,-35 0,-50 Z" fill="url(#mGold)" stroke="#800020" stroke-width="1"/></g>
+      <g transform="rotate(90)"><path d="M0,-50 C-10,-35 -8,-15 0,0 C8,-15 10,-35 0,-50 Z" fill="url(#mGold)" stroke="#800020" stroke-width="1"/></g>
+      <g transform="rotate(135)"><path d="M0,-50 C-10,-35 -8,-15 0,0 C8,-15 10,-35 0,-50 Z" fill="url(#mGold)" stroke="#800020" stroke-width="1"/></g>
+      <g transform="rotate(180)"><path d="M0,-50 C-10,-35 -8,-15 0,0 C8,-15 10,-35 0,-50 Z" fill="url(#mGold)" stroke="#800020" stroke-width="1"/></g>
+      <g transform="rotate(225)"><path d="M0,-50 C-10,-35 -8,-15 0,0 C8,-15 10,-35 0,-50 Z" fill="url(#mGold)" stroke="#800020" stroke-width="1"/></g>
+      <g transform="rotate(270)"><path d="M0,-50 C-10,-35 -8,-15 0,0 C8,-15 10,-35 0,-50 Z" fill="url(#mGold)" stroke="#800020" stroke-width="1"/></g>
+      <g transform="rotate(315)"><path d="M0,-50 C-10,-35 -8,-15 0,0 C8,-15 10,-35 0,-50 Z" fill="url(#mGold)" stroke="#800020" stroke-width="1"/></g>
+    </g>
+
+    <!-- Center Gemstone -->
+    <circle cx="0" cy="0" r="14" fill="#800020" stroke="url(#mGold)" stroke-width="2"/>
+    <circle cx="0" cy="0" r="5" fill="url(#mGold)"/>
+  </g>
+</svg>

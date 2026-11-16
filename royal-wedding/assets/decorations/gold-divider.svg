@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50" width="100%" height="100%">
+  <defs>
+    <linearGradient id="divGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#AA7C11"/>
+      <stop offset="50%" stop-color="#FFE89E"/>
+      <stop offset="75%" stop-color="#AA7C11"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="solidGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE89E"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9A7B1C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Vine & Flourish -->
+  <path d="M50,25 C100,25 140,15 180,25 C195,28 210,25 225,25" fill="none" stroke="url(#divGold)" stroke-width="2"/>
+  <path d="M90,25 C115,10 135,12 145,24" fill="none" stroke="url(#divGold)" stroke-width="1.2"/>
+  <circle cx="115" cy="14" r="2.5" fill="url(#solidGold)"/>
+  <circle cx="170" cy="20" r="2" fill="url(#solidGold)"/>
+  <path d="M150,25 C165,35 185,35 200,25" fill="none" stroke="url(#divGold)" stroke-width="1.2"/>
+  <circle cx="182" cy="32" r="2.5" fill="url(#solidGold)"/>
+
+  <!-- Right Vine & Flourish (Symmetrical) -->
+  <path d="M450,25 C400,25 360,15 320,25 C305,28 290,25 275,25" fill="none" stroke="url(#divGold)" stroke-width="2"/>
+  <path d="M410,25 C385,10 365,12 355,24" fill="none" stroke="url(#divGold)" stroke-width="1.2"/>
+  <circle cx="385" cy="14" r="2.5" fill="url(#solidGold)"/>
+  <circle cx="330" cy="20" r="2" fill="url(#solidGold)"/>
+  <path d="M350,25 C335,35 315,35 300,25" fill="none" stroke="url(#divGold)" stroke-width="1.2"/>
+  <circle cx="318" cy="32" r="2.5" fill="url(#solidGold)"/>
+
+  <!-- Center Sacred Lotus Emblem -->
+  <g transform="translate(250, 25)">
+    <!-- Center Petal -->
+    <path d="M0,-18 C-6,-8 -4,0 0,6 C4,0 6,-8 0,-18 Z" fill="url(#solidGold)"/>
+    <!-- Left Petals -->
+    <path d="M0,4 C-8,-4 -15,-10 -18,-5 C-20,0 -12,8 0,6" fill="url(#solidGold)"/>
+    <path d="M0,5 C-6,3 -12,0 -12,-8 C-7,-9 -4,-4 0,4" fill="url(#solidGold)" opacity="0.85"/>
+    <!-- Right Petals -->
+    <path d="M0,4 C8,-4 15,-10 18,-5 C20,0 12,8 0,6" fill="url(#solidGold)"/>
+    <path d="M0,5 C6,3 12,0 12,-8 C7,-9 4,-4 0,4" fill="url(#solidGold)" opacity="0.85"/>
+    <!-- Lotus Base -->
+    <path d="M-10,7 C-5,11 5,11 10,7 C6,6 -6,6 -10,7 Z" fill="#800020"/>
+    <circle cx="0" cy="2" r="2.5" fill="#800020"/>
+  </g>
+</svg>

@@ -1,0 +1,319 @@
+/* ==========================================================================
+   ROYAL INDIAN WEDDING INVITATION - RESPONSIVE STYLES
+   Breakpoints: 1200px, 992px, 768px, 576px, 400px
+   ========================================================================== */
+
+/* --- Tablet / Medium Desktops (max-width: 1024px) --- */
+@media (max-width: 1024px) {
+  .section-title {
+    font-size: 2.3rem;
+  }
+  
+  .intro-grid {
+    gap: 2.5rem;
+  }
+  
+  .intro-card {
+    padding: 2.5rem;
+  }
+  
+  .countdown-grid {
+    gap: 1.2rem;
+  }
+  
+  .countdown-value {
+    font-size: 3rem;
+  }
+  
+  .family-grid {
+    gap: 1.5rem;
+  }
+  
+  .family-portrait-wrapper {
+    width: 190px;
+    height: 240px;
+  }
+  
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+  }
+  
+  .lightbox-btn {
+    width: 42px;
+    height: 42px;
+  }
+  .lightbox-prev { left: -10px; }
+  .lightbox-next { right: -10px; }
+}
+
+/* --- Tablets & Phablets (max-width: 768px) --- */
+@media (max-width: 768px) {
+  .royal-section {
+    padding: 4.5rem 0;
+  }
+  
+  .section-title {
+    font-size: 1.95rem;
+  }
+  
+  .section-title-hindi {
+    font-size: 1.4rem;
+  }
+  
+  .section-header {
+    margin-bottom: 2.5rem;
+  }
+
+  /* Navigation Bar Mobile Drawer */
+  .nav-hamburger {
+    display: flex;
+  }
+  
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 340px;
+    height: 100vh;
+    background: var(--color-ivory-card);
+    border-left: 2px solid var(--color-gold);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.25);
+    transition: right 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    z-index: 1000;
+  }
+  
+  .nav-links.nav-open {
+    right: 0;
+  }
+  
+  .nav-links a {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Hero section adjustments */
+  .hero-portal {
+    padding: 3rem 1.5rem 2.5rem;
+    border-radius: 180px 180px 12px 12px;
+  }
+  
+  .groom-name, .bride-name {
+    font-size: 1.95rem;
+  }
+  
+  .hero-ampersand {
+    font-size: 2.5rem;
+  }
+  
+  .peacock-left, .peacock-right {
+    width: 90px;
+    height: 90px;
+    opacity: 0.45;
+  }
+
+  /* Intro Section */
+  .intro-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .intro-portrait-wrap {
+    order: -1;
+    max-width: 340px;
+  }
+  
+  .intro-portrait-img {
+    height: 400px;
+  }
+  
+  /* Countdown Timer */
+  .countdown-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+  }
+  
+  .countdown-card {
+    padding: 2.2rem 1rem 1.5rem;
+  }
+  
+  .countdown-value {
+    font-size: 2.8rem;
+  }
+
+  /* Scratch Card */
+  .scratch-container {
+    aspect-ratio: auto;
+    min-height: 450px;
+  }
+  
+  .scratch-details-grid {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+  
+  .scratch-actions-bar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Family Grid */
+  .family-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  .family-member-card {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .family-portrait-wrapper {
+    width: 200px;
+    height: 250px;
+  }
+
+  /* Events Timeline to Single Column */
+  .events-timeline::before {
+    left: 20px;
+  }
+  
+  .event-item {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding-left: 50px;
+  }
+  
+  .event-item:nth-child(even) {
+    direction: ltr;
+  }
+  
+  .event-node {
+    left: 20px;
+    top: 24px;
+    width: 36px;
+    height: 36px;
+    font-size: 0.75rem;
+  }
+  
+  .event-visual-img {
+    height: 220px;
+  }
+  
+  /* Gallery Grid */
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  /* Venue Grid */
+  .venue-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .venue-info-pane {
+    padding: 2rem;
+  }
+  
+  .venue-media-pane {
+    min-height: 300px;
+  }
+
+  /* RSVP Form */
+  .rsvp-card {
+    padding: 2.2rem 1.5rem;
+  }
+  
+  .rsvp-form-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+  
+  .form-group-full {
+    grid-column: span 1;
+  }
+}
+
+/* --- Small Mobile Phones (max-width: 480px) --- */
+@media (max-width: 480px) {
+  html {
+    font-size: 15px;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .royal-section {
+    padding: 3.5rem 0;
+  }
+  
+  .section-title {
+    font-size: 1.7rem;
+  }
+  
+  .section-divider {
+    width: 200px;
+  }
+
+  .hero-portal {
+    padding: 2.5rem 1rem 2rem;
+    border-radius: 120px 120px 10px 10px;
+  }
+
+  .groom-name, .bride-name {
+    font-size: 1.65rem;
+  }
+  
+  .hero-ampersand {
+    font-size: 2rem;
+  }
+  
+  .hero-date-highlight {
+    font-size: 1.1rem;
+  }
+  
+  .btn-royal {
+    width: 100%;
+    padding: 0.85rem 1.4rem;
+    font-size: 0.8rem;
+  }
+  
+  .hero-cta-group {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .countdown-value {
+    font-size: 2.2rem;
+  }
+
+  .countdown-label {
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .closing-signatures {
+    font-size: 2.4rem;
+  }
+  
+  .rsvp-modal-card {
+    padding: 2rem 1.2rem;
+  }
+  
+  .lightbox-btn {
+    display: none; /* Swipe & Close on small mobile */
+  }
+}

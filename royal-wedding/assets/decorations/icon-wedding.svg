@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gWed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE89E"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#805A17"/>
+    </linearGradient>
+    <linearGradient id="fireGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#E63946"/>
+      <stop offset="50%" stop-color="#F4A261"/>
+      <stop offset="80%" stop-color="#E76F51"/>
+      <stop offset="100%" stop-color="#FFE3A8"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="50" cy="50" r="46" fill="#4B091B" stroke="url(#gWed)" stroke-width="2"/>
+  <circle cx="50" cy="50" r="41" fill="none" stroke="url(#gWed)" stroke-width="0.8" stroke-dasharray="2,2"/>
+
+  <!-- Sacred Havan Kund (Tiered Vedic Fire Altar) -->
+  <!-- Top Tier Kund -->
+  <polygon points="26,62 74,62 68,72 32,72" fill="#2E0510" stroke="url(#gWed)" stroke-width="1.8"/>
+  <!-- Middle Tier -->
+  <polygon points="30,72 70,72 66,79 34,79" fill="#20030A" stroke="url(#gWed)" stroke-width="1.5"/>
+  <!-- Base Tier -->
+  <polygon points="32,79 68,79 65,83 35,83" fill="#150207" stroke="url(#gWed)" stroke-width="1.5"/>
+
+  <!-- Kund Corner Carvings / Copper Trim -->
+  <line x1="26" y1="62" x2="32" y2="72" stroke="url(#gWed)" stroke-width="1.5"/>
+  <line x1="74" y1="62" x2="68" y2="72" stroke="url(#gWed)" stroke-width="1.5"/>
+
+  <!-- Holy Agni Fire Flames -->
+  <!-- Main Center Flame -->
+  <path d="M50,62 C40,55 40,45 48,34 C50,42 55,40 50,30 C58,36 62,48 58,55 C54,60 55,62 50,62 Z" fill="url(#fireGrad)"/>
+  <!-- Inner Bright Golden Flame -->
+  <path d="M50,62 C45,58 45,50 49,42 C51,48 54,46 51,40 C55,45 57,53 54,58 Z" fill="#FFF275"/>
+
+  <!-- Sacred Swastika / Floral Auspicious Blessing -->
+  <!-- Auspicious Kalash above -->
+  <path d="M46,26 C45,22 55,22 54,26 L56,30 L44,30 Z" fill="url(#gWed)"/>
+  <circle cx="50" cy="20" r="4" fill="#805A17"/>
+  <!-- Mango leaves on Kalash -->
+  <path d="M44,24 Q40,18 46,20" stroke="url(#gWed)" stroke-width="1.5" fill="none"/>
+  <path d="M56,24 Q60,18 54,20" stroke="url(#gWed)" stroke-width="1.5" fill="none"/>
+
+  <!-- Varmala Rose Petals Garland Trim -->
+  <path d="M22,46 Q26,60 32,68" stroke="url(#gWed)" stroke-width="1.2" fill="none"/>
+  <circle cx="22" cy="46" r="2.5" fill="#E63946"/>
+  <circle cx="25" cy="54" r="2.5" fill="#FFB703"/>
+  <circle cx="29" cy="62" r="2.5" fill="#E63946"/>
+
+  <path d="M78,46 Q74,60 68,68" stroke="url(#gWed)" stroke-width="1.2" fill="none"/>
+  <circle cx="78" cy="46" r="2.5" fill="#E63946"/>
+  <circle cx="75" cy="54" r="2.5" fill="#FFB703"/>
+  <circle cx="71" cy="62" r="2.5" fill="#E63946"/>
+</svg>

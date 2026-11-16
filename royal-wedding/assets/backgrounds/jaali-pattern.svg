@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="jg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#AA7C11" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+  <!-- 8-Point Star and Octagon Jaali Grid -->
+  <path d="M40,0 L50,15 L65,15 L58,28 L70,40 L58,52 L65,65 L50,65 L40,80 L30,65 L15,65 L22,52 L10,40 L22,28 L15,15 L30,15 Z" 
+        fill="none" stroke="url(#jg)" stroke-width="1"/>
+  <circle cx="40" cy="40" r="12" fill="none" stroke="url(#jg)" stroke-width="0.75"/>
+  <circle cx="40" cy="40" r="3" fill="#D4AF37" opacity="0.08"/>
+
+  <!-- Corner Quarter stars -->
+  <path d="M0,0 L10,0 L5,8 L10,15 L0,10 Z" fill="none" stroke="url(#jg)" stroke-width="0.75"/>
+  <path d="M80,0 L70,0 L75,8 L70,15 L80,10 Z" fill="none" stroke="url(#jg)" stroke-width="0.75"/>
+  <path d="M0,80 L10,80 L5,72 L10,65 L0,70 Z" fill="none" stroke="url(#jg)" stroke-width="0.75"/>
+  <path d="M80,80 L70,80 L75,72 L70,65 L80,70 Z" fill="none" stroke="url(#jg)" stroke-width="0.75"/>
+</svg>

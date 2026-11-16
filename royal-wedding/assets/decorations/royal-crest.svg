@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="crestGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEAA7"/>
+      <stop offset="35%" stop-color="#D4AF37"/>
+      <stop offset="70%" stop-color="#9A7B1C"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+    <radialGradient id="crestGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Aura -->
+  <circle cx="150" cy="150" r="140" fill="url(#crestGlow)"/>
+
+  <!-- Ornate Royal Shield Frame -->
+  <path d="M150,55 
+           C195,55 240,65 240,130 
+           C240,205 185,245 150,265 
+           C115,245 60,205 60,130 
+           C60,65 105,55 150,55 Z" 
+        fill="#540B1E" stroke="url(#crestGold)" stroke-width="4"/>
+
+  <!-- Inner Inset Shield -->
+  <path d="M150,68 
+           C185,68 225,76 225,130 
+           C225,195 178,232 150,248 
+           C122,232 75,195 75,130 
+           C75,76 115,68 150,68 Z" 
+        fill="none" stroke="url(#crestGold)" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Royal Crown / Mukut on top of Shield -->
+  <g transform="translate(150, 48)">
+    <path d="M-40,0 L-48,-25 L-24,-12 L0,-32 L24,-12 L48,-25 L40,0 Z" fill="url(#crestGold)" stroke="#805A17" stroke-width="1.5"/>
+    <circle cx="0" cy="-34" r="4" fill="url(#crestGold)"/>
+    <circle cx="-48" cy="-27" r="3.5" fill="url(#crestGold)"/>
+    <circle cx="48" cy="-27" r="3.5" fill="url(#crestGold)"/>
+    <circle cx="-24" cy="-14" r="3" fill="#800020"/>
+    <circle cx="24" cy="-14" r="3" fill="#800020"/>
+    <circle cx="0" cy="-14" r="4" fill="#0E5E7A"/>
+    <!-- Crown Band Jewels -->
+    <rect x="-35" y="-5" width="70" height="7" rx="2" fill="url(#crestGold)"/>
+    <circle cx="-22" cy="-1.5" r="2" fill="#800020"/>
+    <circle cx="0" cy="-1.5" r="2" fill="#0E5E7A"/>
+    <circle cx="22" cy="-1.5" r="2" fill="#800020"/>
+  </g>
+
+  <!-- Laurel / Floral Wreath hugging the Shield sides -->
+  <g stroke="url(#crestGold)" fill="url(#crestGold)" stroke-width="1">
+    <!-- Left Wreath -->
+    <path d="M50,140 C45,180 75,230 130,265" fill="none" stroke-width="2"/>
+    <circle cx="46" cy="150" r="3.5"/>
+    <circle cx="48" cy="175" r="3.5"/>
+    <circle cx="56" cy="200" r="3.5"/>
+    <circle cx="75" cy="225" r="3.5"/>
+    <circle cx="102" cy="250" r="3.5"/>
+
+    <!-- Right Wreath -->
+    <path d="M250,140 C255,180 225,230 170,265" fill="none" stroke-width="2"/>
+    <circle cx="254" cy="150" r="3.5"/>
+    <circle cx="252" cy="175" r="3.5"/>
+    <circle cx="244" cy="200" r="3.5"/>
+    <circle cx="225" cy="225" r="3.5"/>
+    <circle cx="198" cy="250" r="3.5"/>
+  </g>
+
+  <!-- Central Intertwined Monogram: V & A -->
+  <g fill="url(#crestGold)" text-anchor="middle" font-family="'Cinzel Decorative', 'Cinzel', serif" font-weight="bold">
+    <!-- 'V' -->
+    <text x="130" y="155" font-size="64" letter-spacing="1">V</text>
+    <!-- Ampersand -->
+    <text x="150" y="166" font-size="34" font-style="italic" fill="#FFEAA7" opacity="0.9">&amp;</text>
+    <!-- 'A' -->
+    <text x="172" y="180" font-size="64" letter-spacing="1">A</text>
+  </g>
+
+  <!-- Sanskrit Sacred Motto on Lower Ribbon -->
+  <g transform="translate(150, 280)">
+    <path d="M-80,-10 C-40,-5 40,-5 80,-10 C70,4 60,6 0,8 C-60,6 -70,4 -80,-10 Z" fill="url(#crestGold)"/>
+    <text x="0" y="2" fill="#3B0513" font-family="'Cinzel', serif" font-size="10" font-weight="bold" text-anchor="middle" letter-spacing="3">SHUBH VIVAH</text>
+  </g>
+</svg>

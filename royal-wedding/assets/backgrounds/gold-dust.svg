@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="sparkle" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFDD77" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#D4AF37" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Random speckles and subtle stars -->
+  <circle cx="25" cy="40" r="2.5" fill="url(#sparkle)"/>
+  <circle cx="160" cy="25" r="3" fill="url(#sparkle)"/>
+  <circle cx="85" cy="110" r="2" fill="url(#sparkle)"/>
+  <circle cx="180" cy="140" r="2.8" fill="url(#sparkle)"/>
+  <circle cx="35" cy="170" r="3.2" fill="url(#sparkle)"/>
+  <circle cx="120" cy="180" r="1.8" fill="url(#sparkle)"/>
+  <circle cx="130" cy="65" r="2" fill="url(#sparkle)"/>
+  <circle cx="70" cy="30" r="1.5" fill="url(#sparkle)"/>
+
+  <!-- Little 4-point star -->
+  <path d="M160,25 Q160,22 163,22 Q160,22 160,19 Q160,22 157,22 Q160,22 160,25 Z" fill="#FFEAA7" opacity="0.6"/>
+  <path d="M35,170 Q35,167 38,167 Q35,167 35,164 Q35,167 32,167 Q35,167 35,170 Z" fill="#FFEAA7" opacity="0.6"/>
+</svg>
